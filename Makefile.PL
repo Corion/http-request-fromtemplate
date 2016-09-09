@@ -121,7 +121,8 @@ sub regen_INSTALL {
     eval {
         open my $fh, '>', 'INSTALL'
             or die "Creating INSTALL: $!";
-        print {$fh} <<INSTALL
+        binmode $fh;
+        my $content = <<INSTALL;
 =head1 INSTALLATION
 
 These are the installation instructions for $module.
@@ -155,6 +156,8 @@ or
 =back
 
 INSTALL
+        $content =~ s!\s$!\n!mg;
+        print $fh $content;
     };
 }
 
