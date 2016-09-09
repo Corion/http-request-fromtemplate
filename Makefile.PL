@@ -51,10 +51,10 @@ WriteMakefile1(
                         'HTTP::Message' => 0,
                         'Template' => 0,
                         'Class::Accessor' => 0,
-                        'Test::Base' => 0, # I know. Just for the tests ...
     }, # e.g., Module::Name => 1.1
     TEST_REQUIRES => {
         'Test::More' => 0,
+        'Test::Base' => 0, # I know. Just for the tests ...
     },
 
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
