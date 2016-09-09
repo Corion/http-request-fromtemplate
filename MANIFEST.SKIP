@@ -2,7 +2,7 @@
 ^.lwpcookies
 ^.releaserc
 ^blib/
-^Table-Denormalized-.*
+^HTTP-Request-FromTemplate-.*
 CVS/
 ^pm_to_blib
 .tar.gz$
@@ -11,3 +11,4 @@ CVS/
 ^cvstest$
 ^blibdirs$
 bin/.*.sqlite$
+^.git
