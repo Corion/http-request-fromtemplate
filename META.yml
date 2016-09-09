@@ -1,14 +1,30 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         HTTP-Request-FromTemplate
-version:      0.01
-version_from: lib/HTTP/Request/FromTemplate.pm
-installdirs:  site
+---
+abstract: 'Create HTTP requests from templates'
+author:
+  - 'Max Maischein <corion@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: HTTP-Request-FromTemplate
+no_index:
+  directory:
+    - t
+    - inc
 requires:
-    HTTP::Message:                 0
-    HTTP::Request:                 0
-    Template:                      0
-    Test::Base:                    0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.25
+  Class::Accessor: '0'
+  HTTP::Message: '0'
+  HTTP::Request: '0'
+  Template: '0'
+  Test::Base: '0'
+  perl: '5.006'
+resources:
+  repository: git://github.com/Corion/http-request-fromtemplate.git
+version: '0.04'
