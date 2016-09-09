@@ -1,3 +1,10 @@
+v0.04 20160909
+. No code changes
+. Fix test suite which always was broken?!
+. Also distribute examples with the module
+. Upgrade Makefile.PL to latest version
+. Add META information
+
 v0.03 20071111
 - Packaging changes only, no need to upgrade
 - Added missing prerequisite Class::Accessor
