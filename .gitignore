@@ -7,5 +7,6 @@ blib/
 HTTP-Request-FromTemplate-*
 HTTP-Request-FromTemplate-*/
 .releaserc
+.lwpcookies
 cover_db
 MYMETA.*
