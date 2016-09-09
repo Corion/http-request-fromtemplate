@@ -44,7 +44,7 @@ HTTP::Request::FromTemplate - Create HTTP requests from templates
 
 I wanted this for a long time already. It makes it very convenient
 to just paste a logged session from the
-L<http://livehttpheaders.mozdev.org/|Live HTTP Headers>
+L<Live HTTP Headers|http://livehttpheaders.mozdev.org/>
 into a template file and be able to faithfully replay a request
 or to parametrize it without needing to manually compare what
 is sent against what I want.
