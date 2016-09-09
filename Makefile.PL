@@ -122,7 +122,7 @@ sub regen_INSTALL {
         open my $fh, '>', 'INSTALL'
             or die "Creating INSTALL: $!";
         print {$fh} <<INSTALL
-=head1 INSTALLATION 
+=head1 INSTALLATION
 
 These are the installation instructions for $module.
 
