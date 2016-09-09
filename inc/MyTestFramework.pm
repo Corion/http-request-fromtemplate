@@ -4,6 +4,7 @@ use Test::Base -base;
 use HTTP::Request::FromTemplate;
 
 our @EXPORT = qw(template_identity);
+use vars '$TODO';
 
 sub template_identity {
   my $block = shift;
