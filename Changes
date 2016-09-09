@@ -1,0 +1,14 @@
+v0.01 20051018
+- The module escapes
+
+v0.02 20051019
+- Tried to fix TODO header-order test
+- Header-order test had the wrong expected results anyway
+
+v0.03 20071111
+- Packaging changes only, no need to upgrade
+- Added missing prerequisite Class::Accessor
+- Realized that the order of headers cannot be fixed
+  without rewriting deep parts of LWP because those
+  parts cannot be changed by containment
+  or inheritance
