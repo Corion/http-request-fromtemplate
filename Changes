@@ -1,5 +1,7 @@
-v0.05 xxxx
+v0.05 20161001
 . Update requirements - Test::Base is only needed for the tests
+. Remove MYMETA.* from MANIFEST
+. No code changes
 
 v0.04 20160909
 . No code changes

@@ -4,6 +4,7 @@ author:
   - 'Max Maischein <corion@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: '0'
+  Test::Base: '0'
   Test::More: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
@@ -23,8 +24,7 @@ requires:
   HTTP::Message: '0'
   HTTP::Request: '0'
   Template: '0'
-  Test::Base: '0'
   perl: '5.006'
 resources:
   repository: git://github.com/Corion/http-request-fromtemplate.git
-version: '0.04'
+version: '0.05'
