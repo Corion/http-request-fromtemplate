@@ -9,8 +9,6 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.json
 META.yml			Module meta-data (added by MakeMaker)
-MYMETA.json
-MYMETA.yml
 README
 README.mkdn
 t/http_request_fromtemplate_01_api.t
